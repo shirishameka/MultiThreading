@@ -5,7 +5,7 @@ import java.math.BigInteger;
 public class MT {
     public static void main(String[] args) throws InterruptedException {
 
-        int[] arr= {10000,20000,30000,60000,77000,4000,5000,7000,15000,40000,50000};
+        int[] arr= {10000,20000,30000,60000,77000,4000,5000,7000,15000,40000,50000,50000,50000,50000,50000};
         long start= System.currentTimeMillis();
 
         MyThread[]threads= new MyThread[arr.length];
